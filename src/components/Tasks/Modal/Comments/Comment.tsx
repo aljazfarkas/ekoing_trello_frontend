@@ -117,7 +117,7 @@ const Comment = ({ comment }: CommentProps) => {
         {can() && (
           <div className="flex items-center">
             <Button
-              text="Edit"
+              text="Uredi"
               variant="blank"
               textSize="xs"
               className="mr-1"
@@ -125,7 +125,7 @@ const Comment = ({ comment }: CommentProps) => {
             />
             <p>-</p>
             <Button
-              text="Delete"
+              text="Izbriši"
               variant="blank"
               textSize="xs"
               className="ml-1"
@@ -151,10 +151,10 @@ const Comment = ({ comment }: CommentProps) => {
             <Button
               className="mr-2"
               variant="default"
-              text="Cancel"
+              text="Prekliči"
               onClick={() => setEdit(false)}
             />
-            <Button variant="primary" text="Edit" onClick={updateComment} />
+            <Button variant="primary" text="Uredi" onClick={updateComment} />
           </div>
         </div>
       )}

@@ -36,7 +36,7 @@ const Invitation = ({ invitation }: InvitationProps) => {
         </div>
       </div>
       <Button
-        text="Accept"
+        text="Sprejmi"
         variant="primary"
         alignment="left"
         onClick={acceptInvitation}

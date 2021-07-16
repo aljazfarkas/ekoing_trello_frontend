@@ -82,7 +82,7 @@ const UnsplashModal = ({
           className="text-sm hover:text-gray3"
           onClick={() => setPage(page + 1)}
         >
-          Next
+          Naslednje
         </span>
       </div>
     </div>

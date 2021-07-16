@@ -24,7 +24,7 @@ const Attachments = () => {
   return (
     <div className="mt-8">
       <div className="flex items-center">
-        <TaskSubtitle icon={<MdDescription />} text="Attachments" />
+        <TaskSubtitle icon={<MdDescription />} text="Priloge" />
         <FileInput />
       </div>
       {uploadErrorGeneral.length > 0 && (

@@ -64,7 +64,7 @@ const BoardMenuMembers = () => {
                     <p className="text-sm capitalize">{member.role}</p>
                   ) : (
                     <Button
-                      text="Remove"
+                      text="Odstrani"
                       variant="bordered-danger"
                       size="sm"
                       textSize="xs"

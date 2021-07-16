@@ -61,7 +61,7 @@ const TaskDescription = ({ task }: TaskDescriptionProps) => {
         <TaskSubtitle icon={<MdDescription />} text="Opis" />
         <Button
           variant="bordered"
-          text={task.description ? 'Edit' : 'Add'}
+          text={task.description ? 'Uredi' : 'Dodaj'}
           size="sm"
           textSize="xs"
           alignment="left"
@@ -76,7 +76,7 @@ const TaskDescription = ({ task }: TaskDescriptionProps) => {
             ref={ref}
             rows={5}
             className="w-full mt-3 text-sm p-1"
-            placeholder="Add a description"
+            placeholder="Dodaj opis"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           ></textarea>

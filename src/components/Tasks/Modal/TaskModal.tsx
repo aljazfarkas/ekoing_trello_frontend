@@ -215,7 +215,7 @@ const TaskModal = ({ id, isVisible, onClose }: TaskModalProps) => {
                 <div className="w-full">
                   <TaskSubtitle
                     icon={<MdAccountCircle />}
-                    text="Actions"
+                    text="Akcije"
                     className="mb-4"
                   />
                   <TaskCoverSelect id={task.id!} />
@@ -274,7 +274,7 @@ const TaskModal = ({ id, isVisible, onClose }: TaskModalProps) => {
                   <Button
                     className="mt-3 md:mt-0"
                     variant="bordered-danger"
-                    text="Delete"
+                    text="Izbriši"
                     icon={<MdDelete />}
                     alignment="left"
                     onClick={deleteTask}

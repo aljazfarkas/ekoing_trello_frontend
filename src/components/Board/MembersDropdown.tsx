@@ -109,7 +109,7 @@ const MembersDropdown = ({
             icon={<MdAdd />}
             alignment="left"
             variant="primary"
-            text="Assign a member"
+            text="Dodeli člana"
             onClick={() => onTrigger()}
           />
         )
