@@ -11,7 +11,7 @@ const FileProgressFill = ({ fileId }: FileProgressFillProps) => {
   return (
     <div
       style={{ width: `${file?.progress}%` }}
-      className={`bg-green rounded-full h-3`}
+      className={`bg-orange rounded-full h-3`}
     ></div>
   )
 }

@@ -13,7 +13,7 @@ const AddButton = ({ text, icon, onClick, className }: AddButtonProps) => {
   return (
     <button
       onClick={onClick}
-      className={`bg-green-btn rounded-lg px-3 py-1 ${className}`}
+      className={`bg-orange-btn rounded-lg px-3 py-1 ${className}`}
     >
       <div className="flex items-center justify-between text-blue">
         <span className="text-blue font-semibold text-sm">{text}</span>

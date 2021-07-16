@@ -68,7 +68,7 @@ const BoardDescription = () => {
             ref={ref}
             rows={5}
             className="w-full mt-3 text-sm p-1"
-            placeholder="Add a description"
+            placeholder="Dodaj opis"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
           ></textarea>

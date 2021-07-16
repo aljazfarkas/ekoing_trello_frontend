@@ -43,7 +43,7 @@ const UnsplashModal = ({
         />
         <button
           onClick={() => searchPhotos(query)}
-          className="bg-green rounded-lg h-full px-4 text-white text-xs"
+          className="bg-orange rounded-lg h-full px-4 text-white text-xs"
         >
           <MdSearch />
         </button>

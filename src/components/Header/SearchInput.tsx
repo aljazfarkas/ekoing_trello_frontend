@@ -33,7 +33,7 @@ const SearchInput = ({
         }}
       />
       <button
-        className="bg-green rounded-lg h-full px-4 hover:bg-green-darker text-white text-sm"
+        className="bg-orange rounded-lg h-full px-4 hover:bg-orange-darker text-white text-sm"
         onClick={() => search(query)}
       >
         <MdSearch />

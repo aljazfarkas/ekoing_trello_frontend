@@ -18,7 +18,7 @@ type ButtonProps = {
   disabled?: boolean
 }
 const variants: any = {
-  primary: 'bg-green hover:bg-green-darker text-white',
+  primary: 'bg-orange hover:bg-orange-darker text-white',
   secondary: '',
   default: 'bg-gray1 hover:bg-gray5 text-gray3',
   blank: 'bg-white hover:bg-gray5 text-gray3',

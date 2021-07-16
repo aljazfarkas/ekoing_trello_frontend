@@ -31,7 +31,7 @@ const BaseInput = ({
       />
       <button
         onClick={() => onClick(value)}
-        className="bg-green rounded-lg h-full px-4 text-white text-sm"
+        className="bg-orange rounded-lg h-full px-4 text-white text-sm"
       >
         {icon}
       </button>

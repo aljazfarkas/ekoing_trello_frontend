@@ -46,7 +46,7 @@ const Modal = ({
           <button
             onClick={onClose}
             style={{ top: '8px', right: '8px' }}
-            className="absolute text-3xl bg-green flex justify-center items-center w-8 h-8 rounded-lg text-white cursor-pointer hover:text-primary transition-colors duration-200"
+            className="absolute text-3xl bg-orange flex justify-center items-center w-8 h-8 rounded-lg text-white cursor-pointer hover:text-primary transition-colors duration-200"
           >
             &times;
           </button>

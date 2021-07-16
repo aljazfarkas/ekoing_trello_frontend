@@ -8,7 +8,7 @@ type SquareButton = {
 const SquareButton = ({ icon, onClick }: SquareButton) => {
   return (
     <div
-      className="w-8 h-8 bg-green hover:bg-green-darker p-2 rounded-lg cursor-pointer"
+      className="w-8 h-8 bg-orange hover:bg-orange-darker p-2 rounded-lg cursor-pointer"
       onClick={onClick}
     >
       {icon}

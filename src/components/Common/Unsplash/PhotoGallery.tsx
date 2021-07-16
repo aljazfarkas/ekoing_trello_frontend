@@ -58,7 +58,7 @@ const PhotoGallery = ({ onTrigger }: PhotoGalleryProps) => {
             setPage(page + 1)
           }}
         >
-          Next
+          Naslednje
         </span>
       </div>
     </div>

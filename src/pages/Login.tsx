@@ -5,6 +5,7 @@ import { MdEmail, MdLock } from 'react-icons/md'
 import { Link, useHistory } from 'react-router-dom'
 import { useSetRecoilState } from 'recoil'
 import * as yup from 'yup'
+import Logo from '../assets/Logo.svg'
 import client from '../api/client'
 import GithubLink from '../components/Common/GithubLink'
 import Input from '../components/Form/Input'
@@ -48,6 +49,7 @@ const Login = () => {
   }
   return (
     <div className="container flex flex-col justify-center items-center h-screen mx-auto px-6">
+      <img src={Logo} alt="Ekoing logo" style={{ padding: '15px' }}/>
       <h1 className="text-3xl mb-3">Prijava</h1>
 
       <form className="w-full md:w-container" onSubmit={handleSubmit(login)}>
