@@ -25,15 +25,14 @@ const UnsplashModal = ({
       style={{ left: '0', top: '50px' }}
       className="absolute w-64 bg-white rounded-lg shadow-lg p-4"
     >
-      <h2 className="text-gray2 text-base mb-2">Photo Search</h2>
-      <h3 className="text-gray3 text-sm mb-4">Search Unsplash for photos</h3>
+      <h2 className="text-gray2 text-base mb-2">Iskanje slik</h2>
 
       <div className="rounded-lg shadow-md h-10 flex justify-between items-center p-1 mb-4">
         <input
           className="min-w-0 text-sm"
           type="text"
           name="search"
-          placeholder="Keywords..."
+          placeholder="Ključne besede..."
           onChange={(e) => setQuery(e.target.value)}
           onKeyDown={(e) => {
             if (e.key === 'Enter') {

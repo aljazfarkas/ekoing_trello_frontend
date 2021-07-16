@@ -77,17 +77,14 @@ const UnsplashDropdown = () => {
           />
           {show && (
             <div className="absolute w-list top-0 bg-white rounded-card shadow-lg mt-10 py-3 px-4 z-10 border border-gray-border">
-              <h2 className="text-gray2 text-base mb-2">Photo Search</h2>
-              <h3 className="text-gray3 text-sm mb-4">
-                Search Unsplash for photos
-              </h3>
+              <h2 className="text-gray2 text-base mb-2">Iskanje slik</h2>
 
               <div className="rounded-lg shadow-md h-10 flex justify-between items-center p-1 mb-4">
                 <input
                   className="min-w-0 text-sm p-1"
                   type="text"
                   name="search"
-                  placeholder="Keywords..."
+                  placeholder="Ključne besede..."
                   onChange={(e) => setQuery(e.target.value)}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter') {
